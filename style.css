@@ -1,0 +1,522 @@
+
+/*General*/
+
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.VolverHome{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+/*header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.logoHeader{
+    width: 100%;
+}
+.headerA{
+    color: black; font-size: 25px; padding: 15px; 
+}
+
+header{
+    background-color: white;
+    border-color: black;
+    border-style: none;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.liHeader{
+    font-family: 'Roboto', sans-serif ;
+    display: inline-block;
+    text-align: left;
+    list-style: circle;
+    margin-top: 5px;
+}
+
+.liHeader:hover{
+    background-color: pink;
+    transition-duration: 1s;
+}
+
+/*titulo animado*/
+.titulo{
+    color: black;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.titulo:hover{
+    color: black;
+}
+
+/* Index body*/
+
+.bg-pink{
+    background-color: pink;
+}
+body{
+    background-color: pink !important;
+    background-repeat: repeat;
+}
+
+main{
+    margin-bottom: 40px;
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.textoCarrusel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px; color: black ;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: 10px;
+    margin: 40px;
+}
+
+.Envios{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.parrafoEnvio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px; color: black ;
+    text-align: left;
+    line-height: 40px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    padding: 40px;
+    margin: 25px;
+}
+
+.ImagenEnvios{
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*footer*/
+
+
+footer{
+    background-image: linear-gradient(to bottom, #ffc0cb, #b88c95, #775c62, #3b2f32, #000000);
+}
+
+
+.footerA{
+    color: white;
+    text-decoration: none;
+}
+
+.footerContacto{
+    color: white;
+    font-family:  'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.liFooter{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-size: 15px;
+}
+.logoFooter{
+    width: 20px;
+}
+
+.logoContacto{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.redes{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+.mailContacto{
+    flex-wrap: wrap;
+}
+
+
+/* Ventana productos*/
+
+
+.productosVariedad{
+    color: black; 
+    font-size: 6rem;
+    font-family:'Roboto', sans-serif; 
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.h3Titles{
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.pProductos{
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.pProductosFin{
+    font-family:'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgProductos:hover{
+    transform: scale(3);
+}
+
+.mates{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.velas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.almohadones{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.macetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+
+
+/*Ventana Contacto*/
+
+.h2Contacto{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contactoBody{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+
+/* Ventana Nosotros*/
+
+
+
+.h2Nosotros{
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 10px;
+}
+
+.pNosotros{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+
+}
+
+.ubiHorario{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.horario{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.pNosotrosTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.pUbi{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.imagenNosotros{
+    margin-bottom: 30px;
+}
+/*Ventana Promociones*/
+
+.h2Sale{
+    text-align: center;
+    font-size: 10rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+
+/*Grid*/
+
+.texto1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto7{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto8{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+.texto9{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+/*grid areas*/
+
+.mainPro{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /*grid-template-areas: "imagen1 texto1 imagen2 texto2 imagen3 texto3"
+                          "imagen4 texto4 imagen5 texto5 imagen6 texto6"
+                          "imagen7 texto7 imagen8 texto8 imagen9 texto9";*/
+
+}
+.imagen1{
+    grid-area: 1/1/2/2;
+}
+.texto1{
+    grid-area: 1/2/2/3;
+}
+.imagen2{
+    grid-area: 1/3/2/4;
+}
+.texto2{
+    grid-area: 1/4/2/5;
+}
+
+.imagen3{
+    grid-area: 1/5/2/6;
+}
+.texto3{
+    grid-area: 1/6/2/7;
+}
+.imagen4{
+    grid-area: 2/1/3/2;
+}
+.texto4{
+    grid-area: 2/2/3/3;
+}
+.imagen5{
+    grid-area: 2/3/3/4;
+}
+.texto5{
+    grid-area: 2/4/3/5;
+}
+.imagen6{
+    grid-area: 2/5/3/6;
+}
+.texto6{
+    grid-area: 2/6/3/7;
+}
+.imagen7{
+    grid-area: 3/1/4/2;
+}
+.texto7{
+    grid-area: 3/2/4/3;
+}
+.imagen8{
+    grid-area: 3/3/4/4;
+}
+.texto8{
+    grid-area: 3/4/4/5;
+}
+.imagen9{
+    grid-area: 3/5/4/6;
+}
+.texto9{
+    grid-area: 3/6/4/7;
+}
+
+
+/*Media queries*/
+
+@media only screen and (max-width:499px){
+    .header{
+        flex-wrap: wrap;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .logoHeader{
+        width: 40%;
+    }
+    .textoCarrusel{
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0px;
+    }
+       .Envios{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+    .instagram{
+        margin-left: 300px;
+    }
+
+    .parrafoEnvio{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .ImagenEnvios{
+        margin: 0px;
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:1080px){
+
+    .logoHeader{
+        width: 30%;
+    }
+    .Envios{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .instagram{
+        margin-left: 80px;
+        
+    }
+    .logoContacto{
+        width: 10%;
+    }
+    
+}
+
+@media only screen and (min-width:1081px) and (max-width:10000px){
+    .logoHeader{
+        width: 5%;
+    }
+    .logoContacto{
+        width: 10%;
+    }
+
+    .ImagenEnvios{
+        width: 25%;
+    } 
+}
